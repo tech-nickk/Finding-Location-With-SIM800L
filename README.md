@@ -51,7 +51,7 @@ Follow these steps to set up the hardware and software for the SIM800L GSM Locat
 ```cpp
 #include <SoftwareSerial.h>
 
-SoftwareSerial sim800l(7, 8); // RX, TX pins for communication with SIM800L
+SoftwareSerial sim800l(10, 11); // RX, TX pins for communication with SIM800L
 
 void setup() {
   Serial.begin(9600);   // Serial monitor
